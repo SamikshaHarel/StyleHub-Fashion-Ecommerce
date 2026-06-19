@@ -1,0 +1,56 @@
+.fashion-card {
+
+  background: rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(12px);
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  transition: 0.4s;
+
+  cursor: pointer;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+
+}
+
+.fashion-card:hover {
+
+  transform: translateY(-8px) scale(1.02);
+
+}
+
+.fashion-card img {
+
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+
+}
+
+.card-content {
+
+  padding: 15px;
+  color: white;
+
+}
+
+.save-btn {
+
+  margin-top: 10px;
+
+  border: none;
+
+  padding: 10px 16px;
+
+  border-radius: 30px;
+
+  background: #ff4d8d;
+
+  color: white;
+
+  cursor: pointer;
+
+}

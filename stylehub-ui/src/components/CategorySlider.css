@@ -1,0 +1,50 @@
+.slider-wrapper {
+  margin-top: 30px;
+}
+
+.slider-title {
+  color: #ff2e63;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.slider {
+  display: flex;
+  gap: 12px;
+
+  overflow-x: auto;
+  padding-bottom: 10px;
+
+  scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-btn {
+  border: none;
+  padding: 10px 18px;
+
+  border-radius: 30px;
+
+  background: rgba(255,255,255,0.1);
+
+  color: black;
+
+  backdrop-filter: blur(10px);
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  white-space: nowrap;
+}
+
+.slider-btn:hover {
+  background:black;
+  color: white;
+
+  transform: translateY(-3px);
+}

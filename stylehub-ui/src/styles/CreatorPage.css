@@ -1,0 +1,38 @@
+.creator-page {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial;
+}
+
+.creator-card {
+  background: #f7f7f7;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.publish-btn {
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.publish-btn:hover {
+  background: #333;
+}
+
+.ai-section {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}

@@ -1,0 +1,73 @@
+.profile-layout {
+  display: flex;
+  height: 100vh;
+  font-family: Arial;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #111;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar button {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.sidebar button:hover {
+  background: #333;
+}
+
+/* Main content */
+.content {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+/* Cards */
+.section-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Profile image */
+.profile-img {
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Stats */
+.stats {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.logout {
+  background: red;
+  color: white;
+}
